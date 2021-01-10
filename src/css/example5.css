@@ -1,0 +1,330 @@
+.example.example5 {
+    background-color: #f5f5f7;
+  }
+  /*.example.example5 .input::placeholder {
+      line-height: 29px;
+  }*/
+  
+  
+  .field-status{
+      text-rendering: optimizespeed;
+      font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -ms-flex-line-pack: start;
+      align-content: flex-start;
+  }
+  .field-data{
+      width:100%;
+  }
+  
+  @media screen and (min-width: 48em){
+  .field-data {
+      width: 48%;
+  }
+  }
+  
+  @media screen and (min-width: 48em){
+  .field-data-1 {
+      width: 4%;
+  }
+  }
+  
+  .input-icon {
+      position: absolute;
+      bottom: .5em;
+      left: 10px;
+  }
+  .icon1, .icon2 {
+      width: 20px;
+      height: 20px;
+      color: #616161;
+  }
+  .fieldest-mail{
+      margin: 0;
+      padding: .35em 0 .75em;
+      border: 0;
+   }
+  .deposit-header{
+      width:100%;
+      position: relative;
+      background-color: #e8e9eb;
+      min-height: 60px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom: 1px solid #d8d8d8;
+  }
+  
+  .deposit-title{
+      padding-top: 15px;
+      text-align: center;
+      font-weight: 700;
+  }
+  
+  .deposit-title b{
+       font-size: 17px;
+       color:black;
+       font-family: sans-serif;
+       font-style: normal;
+  }
+  
+  .example.example5 * {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .example.example5 form {
+  width: 100%;
+  }
+  
+  #example5-paymentRequest {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .example.example5 fieldset {
+    border-radius: 6px;
+    border:0;
+  }
+  
+  .example.example5 fieldset legend {
+    margin: 0 auto;
+    /* padding: 0 10px; */
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+  }
+  
+  .example.example5 fieldset legend + * {
+    clear: both;
+  }
+  
+  .example.example5 .card-only {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    float: top;
+  }
+  .example.example5 .payment-request-available {
+    display: none;
+  }
+  
+  .example.example5 .row {
+    display: -ms-flexbox;
+    display: block;
+    margin: 0 0 10px;
+    width:100%;
+  }
+  
+  .example.example5 .field {
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width:100%;
+  }
+  
+  .example.example5 .field + .field {
+    margin-left: 10px;
+  }
+  
+  .example.example5 label {
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: sans-serif;
+  }
+  
+  .example.example5 .input {
+    width: 100%;
+    background: white;
+    margin-top:4px;
+    padding: 5px 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px #ddd;
+    /*transition: border-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);*/
+  }
+  
+  .example.example5 .input::-webkit-input-placeholder {
+    opacity: 0.5;
+  }
+  
+  .example.example5 .input::-moz-placeholder {
+    opacity: 0.5;
+  }
+  
+  .example.example5 .input:-ms-input-placeholder {
+    opacity: 0.5;
+  /*  color: #bfaef6; */
+  } 
+  
+  .example.example5 .input.StripeElement--focus,
+  .example.example5 .input:focus {
+    border-color: #1E90FF;
+  }
+  .example.example5 .input.StripeElement--invalid {
+    border-color: red;
+  }
+  
+  .example.example5 input:-webkit-autofill,
+  .example.example5 select:-webkit-autofill {
+    -webkit-text-fill-color: #000;
+    transition: background-color 100000000s;
+    -webkit-animation: 1ms void-animation-out;
+  }
+  
+  .example.example5 .StripeElement--webkit-autofill {
+    background: transparent !important;
+  }
+  
+  .example.example5 input,
+  .example.example5 button,
+  .example.example5 select {
+    -webkit-animation: 1ms void-animation-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border-style: none;
+    border-radius: 0;
+  }
+  
+  .example.example5 select.input,
+  .example.example5 select:-webkit-autofill {
+    background-image: url('data:image/svg+xml;utf8,<svg width="10px" height="5px" viewBox="0 0 10 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M5.35355339,4.64644661 L9.14644661,0.853553391 L9.14644661,0.853553391 C9.34170876,0.658291245 9.34170876,0.341708755 9.14644661,0.146446609 C9.05267842,0.0526784202 8.92550146,-2.43597394e-17 8.79289322,0 L1.20710678,0 L1.20710678,0 C0.930964406,5.07265313e-17 0.707106781,0.223857625 0.707106781,0.5 C0.707106781,0.632608245 0.759785201,0.759785201 0.853553391,0.853553391 L4.64644661,4.64644661 L4.64644661,4.64644661 C4.84170876,4.84170876 5.15829124,4.84170876 5.35355339,4.64644661 Z" id="shape"></path></svg>');
+    background-position: 100%;
+    background-size: 10px 5px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 20px;
+  }
+  
+  .example.example5 button {
+    display: block;
+    width: 30%;
+    /*height: 35px; */
+    font-size: 18px !important; 
+    margin-right:35%;
+    margin-left:35%;
+    background-color:#0078e7;
+    border-radius: 2px;
+    color: white;
+    padding: .5em 1em;
+    font-size:15px;
+    font-weight: 500;
+    cursor: pointer;
+    
+  }
+  
+  .example.example5 button:active {
+    background-color: #cdd0f8;
+  }
+  
+  .example.example5 .error svg .base {
+    fill: #fff;
+  }
+  
+  .example.example5 .error svg .glyph {
+    fill: #9169d8;
+  }
+  
+  .example.example5 .error .message {
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  .example.example5 .success .icon .border {
+    stroke: #bfaef6;
+  }
+  
+  .example.example5 .success .icon .checkmark {
+    stroke: #fff;
+  }
+  
+  .example.example5 .success .title {
+    color: #000;
+  }
+  
+  .example.example5 .success .message {
+    color: black;
+  
+  }
+  
+  .example.example5 .success .reset path {
+    fill: #fff;
+  }
+  label [class*="pure-u"] {
+      font-family: sans-serif;
+  }
+  fieldset {
+       border-color: transparent;
+  }
+  
+  .status-error{
+    width:100%;
+    padding:15px!important;
+    border-radius:4px;
+    background-color:red;
+    color:white;
+    margin-bottom:5px!important;
+    display:none;
+  }
+  
+  #amount-error-stripe{
+      display:none;
+      color: red;
+      margin-bottom: 5px; 
+      margin-top: 5px;
+      font-size: .9rem;
+  }
+  
+  #test-mode{
+      position: fixed;
+      z-index: 10000;
+      top: 14px;
+      right: 25px;
+      padding: 2px 10px;
+      background-color: #f7e633;
+      color: #363636;
+      font-size: 11px;
+      font-weight: 700;
+      font-family:Arial;
+      line-height: 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display:block;
+  }
+  
+  .small-spinner {
+      box-sizing: border-box;
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 7px solid #ccc;
+      border-top-color: #0078e7;
+      animation: small-spinner .6s linear infinite;
+  }
+  #approved-stripe.approved-stripe {
+      fill-opacity:0;
+      margin-bottom: 50%;
+  }
+  #approved-stripe {
+      fill-opacity:1;
+      margin-bottom: 50%;
+  }
+  #test-mode.live-mode{
+      display:none;
+  }
